@@ -8,5 +8,5 @@
         int x, y;
         scanf("%d %d", &x, &y);
 
-        printf("%d\n", *(*(*(p + y) + x)));
+        printf("%d\n", *(*(*p + x) + y));
     }
